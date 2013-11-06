@@ -719,3 +719,7 @@ let g:DisableAutoPHPFolding = 1
 set nofoldenable
 set noexpandtab
 set title
+
+"Highlight too long lines.
+hi ColorColumn ctermbg=88
+call matchadd('ColorColumn', '\%80v', 100)
