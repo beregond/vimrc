@@ -712,10 +712,12 @@
 " }
 "
 
-color obsidian
+color solarized
+set background=dark
+
 hi clear SpellBad
 hi clear SpellCap
-let g:DisableAutoPHPFolding = 1
+
 set nofoldenable
 set noexpandtab
 set title
